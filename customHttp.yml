@@ -1,0 +1,6 @@
+customHeaders:
+  - pattern: '*'
+    headers:
+    - key: 'Set-Cookie'
+      value: 'foo=bar; HttpOnly'
+    
