@@ -3,4 +3,8 @@ customHeaders:
     headers:
     - key: 'Set-Cookie'
       value: 'foo=bar; HttpOnly'
-    
+- pattern: '/test'
+    headers:
+    - key: 'Set-Cookie'
+      value: 'foo=baz; SameSite=Strict; Secure; HttpOnly'
+      
